@@ -25,15 +25,12 @@ https://disk.yandex.ru/d/kxFpzRuori7w0A
 создайте у себя подобную структуру
 
 MAX-Therapist-LLM/
-│
 ├── llama_model/                 
 ├── lora_output/                 
-│
 ├── Dockerfile.cpu              
 ├── docker-compose.yml           
 ├── requirements.txt             
 ├── README.md                    
-│
 ├── app.py                      
 ├── max_bot.py                  
 ├── train_lora.py                
