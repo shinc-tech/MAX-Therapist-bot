@@ -25,6 +25,7 @@ https://disk.yandex.ru/d/kxFpzRuori7w0A
 создайте у себя подобную структуру
 
 MAX-Therapist-LLM/
+
 ├── llama_model/                 
 ├── lora_output/                 
 ├── Dockerfile.cpu              
