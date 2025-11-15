@@ -34,7 +34,7 @@ MAX-Therapist-LLM/
 ├── README.md                    
 ├── app.py                      
 ├── max_bot.py                  
-├── train_lora.py                
+└── train_lora.py                
 
 # 2. Запуск
 
