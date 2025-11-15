@@ -1,0 +1,21 @@
+services:
+  max-therapy:
+    build:
+      context: .
+      dockerfile: Dockerfile.cpu
+    ports:
+      - "8000:8000"
+    environment:
+      - BASE_MODEL_PATH=llama_model
+      - LORA_DIR=lora_output
+      - FORCE_CPU=1
+    volumes:
+      - ./llama_model:/app/llama_model:ro
+      - ./lora_output:/app/lora_output:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
