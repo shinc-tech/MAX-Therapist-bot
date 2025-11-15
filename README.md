@@ -38,12 +38,11 @@ MAX-Therapist-LLM/
 ├── max_bot.py                  
 ├── train_lora.py                
 
+# 2. Запуск
 
-Запуск
-bash# 1. Сборка (первый раз — долго)
+Сборка (первый раз — долго)
 docker compose build --no-cache
 
-# 2. Запуск
 docker compose up
 
 Откройте в браузере: http://localhost:8000
