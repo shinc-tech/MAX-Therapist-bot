@@ -40,8 +40,11 @@ MAX-Therapist-LLM/
 
 # 2. Запуск
 
-Сборка (первый раз — долго)
+Сборка (первый раз — долго) по команде
+
 docker compose build --no-cache
+
+после чего для запуска ввести
 
 docker compose up
 
